@@ -28,7 +28,7 @@ Weather radar non-Gaussian spectrum research.
 ## 1. 快速开始
 
 ```matlab
-cd('...\非高斯谱\yu_sim')
+cd('path/to/Non-Gaussian-spectrum-research')
 run_all            % 生成全部图件与 data/*.mat，约 2 分钟（4 核并行时）
 ```
 
@@ -237,7 +237,7 @@ Non-Gaussian-spectrum-research/  (仓库根目录)
 由脚本自动创建/覆盖。
 
 论文文本与页面截图放在原工作区的 `papers_text/`，仅用于核对，不随
-本压缩包分发。
+本仓库分发。
 
 ---
 
@@ -248,6 +248,6 @@ Non-Gaussian-spectrum-research/  (仓库根目录)
 - Yu, T.-Y., Y. Wang, A. Shapiro, M. B. Yeary, D. S. Zrnić, and R. J. Doviak, 2007: *Characterization of Tornado Spectral Signatures Using Higher-Order Spectra*. J. Atmos. Oceanic Technol., **24**, 1997–2013.
 - Yu, T.-Y., R. Reinoso-Rondinel, and R. D. Palmer, 2009: *Investigation of Non-Gaussian Doppler Spectra Observed by Weather Radar in a Tornadic Supercell*. J. Atmos. Oceanic Technol., **26**, 444–461.
 
-本目录为独立重实现，不是作者原始代码；PRIB、Fig.1d、Fig.6–8 高斯
+本仓库为独立重实现，不是作者原始代码；PRIB、Fig.1d、Fig.6–8 高斯
 重构等处的等效处理已在第 5 节说明。
 
